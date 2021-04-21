@@ -1,33 +1,34 @@
 {
-  "name": "terminal-tab",
-  "main": "./lib/main",
-  "version": "0.6.0",
-  "description": "A simple terminal for panes and docks.",
+  "_from": "https://www.atom.io/api/packages/terminal-tab/versions/0.6.0/tarball",
+  "_id": "terminal-tab@0.6.0",
+  "_inBundle": false,
+  "_integrity": "sha512-hzoKyj6PdaLgRPZlzNkqk+/aNnCpssxxFpVnVqhwwz6uWmXXMtsIXB0RQulKQgVZJ1H5PqChSopaHlv/NuxYHg==",
+  "_location": "/terminal-tab",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/terminal-tab/versions/0.6.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/terminal-tab/versions/0.6.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/terminal-tab/versions/0.6.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/terminal-tab/versions/0.6.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/terminal-tab/versions/0.6.0/tarball",
+  "_shasum": "0a9291b908db676b1e5dfc1b9e31bfd85d3ba4eb",
+  "_spec": "https://www.atom.io/api/packages/terminal-tab/versions/0.6.0/tarball",
+  "_where": "/tmp/apm-install-dir-2021321-11275-vi7tic.utke",
   "author": {
     "name": "Justin Mecham",
     "email": "justin@mecham.me",
     "url": "http://justin.mecham.me"
   },
-  "private": true,
-  "scripts": {
-    "test": "apm test"
+  "bugs": {
+    "url": "https://github.com/jsmecham/atom-terminal-tab/issues"
   },
-  "keywords": [
-    "command",
-    "console",
-    "prompt",
-    "pty",
-    "terminal",
-    "term",
-    "tty",
-    "xterm"
-  ],
-  "homepage": "https://atom.io/packages/terminal-tab",
-  "repository": "https://github.com/jsmecham/atom-terminal-tab",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.19.0 <2.0.0"
-  },
+  "bundleDependencies": false,
   "dependencies": {
     "etch": "^0.14.0",
     "node-pty-prebuilt-multiarch": "^0.9.0",
@@ -35,8 +36,13 @@
     "xterm": "^4.2.0",
     "xterm-addon-fit": "^0.3.0"
   },
+  "deprecated": false,
+  "description": "A simple terminal for panes and docks.",
   "deserializers": {
     "TerminalSession": "deserializeTerminalSession"
+  },
+  "engines": {
+    "atom": ">=1.19.0 <2.0.0"
   },
   "eslintConfig": {
     "env": {
@@ -73,5 +79,28 @@
         "always"
       ]
     }
-  }
+  },
+  "homepage": "https://atom.io/packages/terminal-tab",
+  "keywords": [
+    "command",
+    "console",
+    "prompt",
+    "pty",
+    "terminal",
+    "term",
+    "tty",
+    "xterm"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "terminal-tab",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsmecham/atom-terminal-tab.git"
+  },
+  "scripts": {
+    "test": "apm test"
+  },
+  "version": "0.6.0"
 }

@@ -1,11 +1,17 @@
 {
   "atom-workspace": {
-    "cmd-shift-t": "terminal:open"
+    "cmd-shift-t": "terminal:open",
+    "f5": "terminal:runFile",
+    "f7": "terminal:debug"
+  },
+  "atom-text-editor":{
+    "f6": "terminal:runLine"
   },
   "terminal-view": {
-    "cmd-c": "terminal:copy",
-    "cmd-v": "terminal:paste",
-    "cmd-k": "terminal:clear",
-    "cmd-w": "terminal:close"
+    "ctrl-shift-C":"terminal:copy",
+    "shift-insert":"terminal:paste",
+    "ctrl-shift-V":"terminal:paste",
+    "ctrl-shift-K":"terminal:clear",
+    "ctrl-shift-x":"terminal:close"
   }
 }
