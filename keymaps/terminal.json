@@ -2,7 +2,7 @@
   "atom-workspace": {
     "cmd-shift-t": "terminal:open",
     "f5": "terminal:runFile",
-    "f7": "terminal:debug"
+    "cmd-shift-D": "terminal:debug"
   },
   "atom-text-editor":{
     "f6": "terminal:runLine"
